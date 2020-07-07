@@ -23,6 +23,9 @@ html, body {
 h1{
     font-size: 1rem;
 }
+.navbar-light .nav-item.active .nav-link{
+    color: #00ccb6;
+}
 .nav-link:hover,
 .nav-link:active{
     color: #00ccb6 !important;
@@ -174,12 +177,12 @@ h1{
     padding-bottom: 1rem;
     text-transform: uppercase;
 }
-.find-us ul li a:visited,
-.find-us ul li a:visited:link{
+.places li a:visited,
+.find-us ul li a:link{
     color: #000000 !important;
 }
 .find-us ul li a:hover,
-.find-us ul li a:active:link{
+.find-us ul li a:active{
     color: #00ccb6 !important;
 }
 iframe{
